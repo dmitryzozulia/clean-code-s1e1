@@ -47,6 +47,7 @@ var createNewTaskElement=function(taskString){
   deleteButton.className="delete button";
   deleteButtonImg.src="./remove.svg";
   deleteButtonImg.className="delete-img";
+  deleteButtonImg.alt="delete button";
   deleteButton.appendChild(deleteButtonImg);
 
 
